@@ -1,0 +1,62 @@
+/* Navbar */
+.navbar {
+  list-style: none !important;
+}
+
+.bg-dark {
+    background-color: #F53163 !important;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-size: 16pt;
+}
+
+/* Dropdown (Account) */
+.dropdown-toggle  {
+    position: absolute;
+    left: 740px;
+    top: -25px;
+}
+
+#itemdropdown_custom {
+    background-color:#F53163;
+    border:2.5px solid;
+    border-color:#FEF2F2;
+    border-radius:20px;
+    position: absolute;
+    left: 650px;
+    top: 28px;
+}
+
+.dropdown-item {
+    color:white !important;
+    font-size:15pt;
+}
+
+/* Search */
+.search-bar {
+    width:300px;
+    height:40px;
+    padding: 10px;
+    position: absolute;
+    bottom:29px;
+    left:850px;
+    border-radius:15px;
+    background-color: white;
+    border-color:white;
+    background-position: 30px 30px;
+}
+
+.search-button{
+    font-size:12pt;
+    width:80px;
+    height:40px;
+    position: absolute;
+    bottom:29px;
+    left:1160px;
+    background-color:white;
+    border-color:white;
+    border-radius:15px;
+}
+

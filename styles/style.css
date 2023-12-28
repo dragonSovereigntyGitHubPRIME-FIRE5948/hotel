@@ -1,0 +1,251 @@
+.font {
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+
+
+body {
+    background-color: #FEF2F2;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+   font-family: "Abril Fatface" !important;
+  color: #F53163;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form {
+    text-align : center;
+    padding-top: 10px;
+}
+
+.formIMG {
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+#idHotelName {
+    font-family: "Copperplate";
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.classAddressContact {
+    font-family: "Open Sans";
+    font-size: 16pt;
+    text-align: center;
+}
+
+/* -------------------- Table -------------------- */
+
+.table {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table.table tbody tr td {
+  text-align: center;
+  border-right: 3px solid #F53163;
+  padding-top:15px !important;
+padding-bottom:15px !important;
+}
+
+tr {
+    text-align: center;
+    background-color: #F53163 !important;
+    font-family: "Copperplate";
+    font-size: 13pt;
+    color: white;
+}
+
+td {
+    background-color: #E4C2C1 !important;
+    font-family: "Open Sans";
+    font-size: 13pt;
+    color: #F53163;
+}
+
+/* -------------------- Forms -------------------- */
+.input-group {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-switch{
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+/* -------------------- Bootstrap -------------------- */
+
+.hotellistcontainer {
+    width: 1200px !important;
+    padding-top:50px;
+}
+
+.bg-yellow {
+    background-color: #E4C2C1 !important;
+    border-radius: 20px;
+    border: 2px solid #E4C2C1;
+    padding-top: 10px;
+}
+
+/* -------------------- Buttons -------------------- */
+.btn-primary {
+    font-family: "Copperplate";
+    font-size: 16pt;
+    color: #F53163;
+    width: 220px;
+    height: 48px;
+    background-color: #E4C2C1; 
+    border-radius: 20px;
+    border-style: outset;
+    border: 3px solid #F53163;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    border-style: dashed;
+    background-color: #F53163;
+    border-color: #E4C2C1; /*set the color you want here*/
+}
+
+/* -------------------- Form Inputs -------------------- */
+
+/* Change form input css */
+
+.form-control {
+  border: 3px solid #F53163; 
+  color: #F53163;
+  font-family: "Cinzel";
+  font-size: 16pt;
+  border-radius: 25px;
+  margin-left: -10px;
+  height: 65px;
+  /*background-color: ;*/
+}
+
+/* Change form input "focused state" css */
+.form-control:focus {
+  border-color: #F53163;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  color: #F53163;
+  font-family: "Cinzel";
+  font-size: 16pt;
+  /*background-color: ;*/
+}
+
+/*
+form input:valid {
+    font-size: 16pt;
+}*/
+
+/* Float inputs css */
+.form-floating {
+    font-family: "Cinzel";
+    color: #F53163;
+    font-size: 16pt;
+    height: 50px;
+/*      padding-left: -30px;*/
+}
+
+/* Margin Top */
+.pt-5 {
+    padding-top: 40px !important;
+}
+
+/* Width */
+.w280 {
+   width: 280px !important; 
+}
+
+.w560 {
+   width: 560px !important; 
+}
+
+.g-3 {
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+
+/* -------------------- Cards -------------------- */
+
+.card {
+    width: 545px !important;
+    height: 570px;
+    text-align: center;
+    margin-top:20px;
+    
+}
+
+.card-img {
+    width: 520px;
+    height: 380px;
+    padding-top:10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-title {
+    font-family: "Abril Fatface" !important;
+    font-size: 26px;
+    font-weight: bold;
+    color: #F53163;
+}
+
+.card-text {
+    font-family: "Cinzel" !important;
+    font-size: 14pt;
+    color: black;
+}
+
+.btn-secondary {
+    font-family: "Cinzel";
+    font-weight: bold;
+    font-size: 22px;
+    color: #F53163;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 170px;
+    height: 50px;
+    background-color: #E4C2C1; 
+    border-radius: 20px;
+    border-style: outset;
+    border: 3px solid #F53163;
+}
+
+.btn-secondary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    border-style: dashed;
+    background-color: #F53163;
+    border-color: #E4C2C1; /*set the color you want here*/
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-sm{
+        max-width: 800px;
+    }
+}
+
+
+
+
